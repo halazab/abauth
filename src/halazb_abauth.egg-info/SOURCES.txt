@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/abauth/__init__.py
+src/abauth/apps.py
+src/abauth/models.py
+src/abauth/settings.py
+src/halazb_abauth.egg-info/PKG-INFO
+src/halazb_abauth.egg-info/SOURCES.txt
+src/halazb_abauth.egg-info/dependency_links.txt
+src/halazb_abauth.egg-info/not-zip-safe
+src/halazb_abauth.egg-info/requires.txt
+src/halazb_abauth.egg-info/top_level.txt

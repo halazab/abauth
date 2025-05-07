@@ -1,12 +1,12 @@
 Metadata-Version: 2.4
-Name: abauth
-Version: 0.1.0
+Name: halazb-abauth
+Version: 0.1.3
 Summary: A comprehensive Django authentication system with advanced features
-Home-page: https://github.com/halazb/abauth
-Author: Halazb
+Home-page: https://github.com/halazab/abauth
+Author: Halazab
 Author-email: Halazab <halazb27@gmail.com>
-Project-URL: Homepage, https://github.com/halazab/abauth
-Project-URL: Bug Tracker, https://github.com/halazab/abauth/issues
+Project-URL: Homepage, https://github.com/halazb/abauth
+Project-URL: Bug Tracker, https://github.com/halazb/abauth/issues
 Classifier: Development Status :: 4 - Beta
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django
@@ -24,20 +24,19 @@ Classifier: Topic :: Security
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
-Requires-Dist: Django>=5.0.2
-Requires-Dist: djangorestframework>=3.14.0
-Requires-Dist: djangorestframework-simplejwt>=5.3.1
-Requires-Dist: django-cors-headers>=4.3.1
-Requires-Dist: django-otp>=1.3.0
-Requires-Dist: qrcode>=7.4.2
-Requires-Dist: Pillow>=10.2.0
-Requires-Dist: python-dotenv>=1.0.1
-Requires-Dist: django-redis>=5.4.0
-Requires-Dist: django-ratelimit>=4.1.0
-Requires-Dist: django-filter>=23.5
-Requires-Dist: django-cleanup>=8.0.0
-Requires-Dist: django-storages>=1.14.2
-Requires-Dist: django-allauth>=0.61.1
+Requires-Dist: Django
+Requires-Dist: djangorestframework
+Requires-Dist: djangorestframework-simplejwt
+Requires-Dist: django-cors-headers
+Requires-Dist: qrcode
+Requires-Dist: Pillow
+Requires-Dist: python-dotenv
+Requires-Dist: django-redis
+Requires-Dist: django-ratelimit
+Requires-Dist: django-filter
+Requires-Dist: django-cleanup
+Requires-Dist: django-storages
+Requires-Dist: django-allauth
 Dynamic: author
 Dynamic: home-page
 Dynamic: license-file
