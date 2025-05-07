@@ -1,0 +1,55 @@
+from setuptools import setup, find_packages
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setup(
+    name="abauth",
+    version="0.1.0",
+    author="Halazb",
+    author_email="halazb27@gmail.com",
+    description="A comprehensive Django authentication system with advanced features",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/halazb/abauth",
+    project_urls={
+        "Bug Tracker": "https://github.com/halazb/abauth/issues",
+    },
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Environment :: Web Environment",
+        "Framework :: Django",
+        "Framework :: Django :: 5.0",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Topic :: Internet :: WWW/HTTP",
+        "Topic :: Security",
+    ],
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
+    python_requires=">=3.8",
+    install_requires=[
+        "Django>=5.0.2",
+        "djangorestframework>=3.14.0",
+        "djangorestframework-simplejwt>=5.3.1",
+        "django-cors-headers>=4.3.1",
+        "django-otp>=1.3.0",
+        "qrcode>=7.4.2",
+        "Pillow>=10.2.0",
+        "python-dotenv>=1.0.1",
+        "django-redis>=5.4.0",
+        "django-ratelimit>=4.1.0",
+        "django-filter>=23.5",
+        "django-cleanup>=8.0.0",
+        "django-storages>=1.14.2",
+        "django-allauth>=0.61.1",
+    ],
+    include_package_data=True,
+    zip_safe=False,
+) 
